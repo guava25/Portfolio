@@ -1,22 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="portfoliojs">
+<html lang="en">
 
 <?php 
     require 'head.php';
 ?>
     
-<body ng-controller="PortfolioController">
-
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand" ng-repeat="x in names">
-                <a ng-href="{{x.href}}" onclick = $("#menu-close").click(); >{{x.name}}</a>
-            </li>
-        </ul>
-    </nav>
+<body>
 
     <!-- Header -->
     <header id="top" class="header">

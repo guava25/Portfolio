@@ -35,3 +35,14 @@
     <![endif]-->
 
 </head>
+
+<!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a ng-href="achievements.php" onclick = $("#menu-close").click(); >Achievements</a>
+            </li>
+        </ul>
+    </nav>
