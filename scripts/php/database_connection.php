@@ -4,7 +4,7 @@ $password = "admin";
 
 $hostname = "localhost";
 
-$database = "gbehera2_portfolio";
+$database = "gbehera";
 
 $dbhandle = mysqli_connect($hostname, $username, $password, $database);
 ?>
